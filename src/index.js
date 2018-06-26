@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+//import TodoItem from './components/todos/todo-item';
+//import Counter from './components/todos/counter';
+//import TodoForm from './components/todos/todo-form';
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
